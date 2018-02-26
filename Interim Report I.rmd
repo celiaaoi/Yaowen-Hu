@@ -14,8 +14,11 @@ hmda = read.csv("ny_hmda_2015.csv")
 2. Describe the measurement types of each variable
 Based on our observation and result from str function, we conclue the measurement types as follow.
 Nominal: action_taken_name; agency_abbr; agency_name; applicant_ethnicity_name; applicant_race_name_1&2&3&4&5; applicant_sex_name; co_applicant_sex_name; country_name; denial_reason_name_1&2&3; edit_status_name; hoepa_status_name; lien_status_name; loan_purpose_name; msamd_name; owner_occupancy_name; preapproval_name; property_type_name; state_abbr; respondent_id
+
 Ordinal: as_of_year
+
 Interval: action_taken; agency_code; applicant_ethicity; applicant_race_1&2&3&4&5; applicant_sex; applicantion_date_indicatior; census_tract_number; co_applicant_ethnicity; co_applicant_race_1&2&3&4&5; co_applicant_sex; country_code; denial_reason_1&2&3; edit_status; hoepa_status; lien_status; loan_purpose; loan_type; msamd; owner_occupancy; preapproval; property_type; purchaser_type; sequence_number; state_code
+
 Ratio: hud_median_family_income; loan_amount_000s; number_of_1_to_4_family_units; number_of_owner_occupied_units; minority_population; population; tate_spread; tract_to_msamd_income
 
 3. Create a table summarizing the range or variation in each variable. Add statistics (mean,
