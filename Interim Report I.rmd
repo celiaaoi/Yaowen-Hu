@@ -69,7 +69,7 @@ for(n in c(1:43)){
 }
 
 for(n in c(1:43)){
-  hmdacon.df[n,5] = max(hmdacon[[n]]) - min((hmdacon[[n]]))
+  hmdacon.df[n,5] = max(hmdacon[[n]], na.rm = TRUE) - min(hmdacon[[n]], na.rm = TRUE)
 }
 
 names(hmdacon.df) <- c("mean","mode","standard deviation","median","range")
